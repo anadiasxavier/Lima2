@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@100;200;300;400&display=swap');
+
+
+:root {
+    --cor-principal: #8C362B;
+    --cor-secundaria: #F5E9DC;
+    --cor-texto: #333;
+    --cor-destaque: #A2A87C;
+    --cor-fundo: #5E6B45;
+}
+
+body {
+    font-family: "Afacad", sans-serif;
+    font-weight: normal; 
+ 
+}
+
+
+
+/* Header */
+header {
+    background-color: var(--cor-principal);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 220px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+/* Navegação */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:30px;
+    margin-inline-end: 50px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--cor-secundaria);
+    padding: 6px 12px;
+}
+
+/* Banner */
+.banner img{
+    width: 100%;
+}
+
+/* Catalogo */
+.catalogo{
+    background-color: var(--cor-destaque);
+    height: auto;
+}
+
+.catalogo img{
+    height: 200px;
+}
+
+.catalogo ul{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.catalogo li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    min-width: 200px;
+    flex: 2;
+}
+
+
+.catalogo p {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+}
+
+/* Sobre */
+
+.sobre{
+    background-color: var(--cor-principal);
+    height: 650px;
+    display: flex;
+}
+
+.sobre p {
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 120px;       
+    margin-inline-start: auto; 
+    margin-inline-end: 70px; 
+    text-align: right;      
+    max-width: 600px; }
