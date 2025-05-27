@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@100;200;300;400&display=swap');
-
-
+@font-face {
+    font-family: 'afacad';
+    src: url('fontes/Afacad/Afacad-VariableFont_wght.ttf') format('truetype');
+  }
 :root {
     --cor-principal: #8C362B;
     --cor-secundaria: #F5E9DC;
@@ -17,7 +18,7 @@
 }
 
 body {
-    font-family: "Afacad", sans-serif;
+    font-family: 'afacad';
     font-weight: normal; 
  
 }
@@ -63,6 +64,10 @@ nav a:hover {
 /* Banner */
 .banner img{
     width: 100%;
+}
+
+.banner{
+    background-color: var(--cor-destaque);
 }
 
 /* Catalogo */
