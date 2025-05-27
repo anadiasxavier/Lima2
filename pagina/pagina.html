@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
+    <!-- importe do css -->
     <link rel="stylesheet" href="pagina.css">
 
     <title>Floricultura Ana Flor</title>
 </head>
 <body>
+    <!-- inicio do cabeçalho e a navegação -->
     <header>
-        <img src="imagens/logo.png" alt="Logo Ana Flor">
+        <img src="imagens/logo.png" alt="Logotipo da floricultura Ana Flor">
 
         <nav>
             <ul>
@@ -30,14 +32,16 @@
 
 
     <main>
+        <!-- banner -->
         <section class="banner">
                 <img src="imagens/banner.png" alt="Banner Ana Flor">
         </section>
-
+        
+        <!-- catalogo com tres categorias -->
         <section class="catalogo">
             <ul>
                 <li>
-                    <img src="imagens/img1.png" alt="foto de buquê">
+                    <img src="imagens/img1.png" alt="foto de buquê de flores">
                     <p>Buquês</p>
                 </li>
                 <li>
@@ -45,12 +49,13 @@
                     <p>Arranjos</p>
                 </li>
                 <li>
-                    <img src="imagens/img3.png" alt="foto de uma planta">
+                    <img src="imagens/img3.png" alt="foto de uma planta em um vaso">
                     <p>Plantas</p>
                 </li>
             </ul>
         </section>
 
+        <!-- secao sobre -->
         <section id="sobre" class="sobre">
             <img src="imagens/flores.png" alt="flores desenhadas">
             <p>
@@ -62,12 +67,20 @@
         </section>
     </main>
     
-     <aside>
+    <!-- secao de promocao -->
+    <aside class="promocao">
         <h3>Promoção da Semana</h3>
-        <p>Compre um buquê e ganhe um mimo especial!</p>
-        <p>Válido até domingo.</p>
+        <div class="conteudo">
+            <div class="teste">
+                <img class="imgPlanta" src="imagens/imgPlanta.png" alt="Imagem de uma planta em um vaso"> 
+                <p>Compre um buquê e ganhe um mimo especial!</p>
+                <p>Válido até domingo.</p>
+            </div>
+        </div>
+        <img class="floresVerdes" src="imagens/floresVerdes.png" alt="flores desenhadas">
     </aside>
-
+    
+    <!-- rodape -->
     <footer>
         <p>Rua das Flores, 123 – Cidade Jardim</p>
         <p>Contato: (00) 1234-5678 | anaflor@flores.com</p>
